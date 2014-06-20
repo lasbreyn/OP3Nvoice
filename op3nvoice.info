@@ -1,0 +1,10 @@
+name = OP3Nvoice
+description = OP3Nvoice provides a RESTful API to extract knowledge from audio and video content.
+#dependencies[] = media
+#dependencies[] = media_internet
+package = Op3nVoice
+core = 7.x
+php = 5.x
+files[] = op3nvoice.install
+files[] = op3nvoice.module
+configure = admin/structure/op3nvoice
